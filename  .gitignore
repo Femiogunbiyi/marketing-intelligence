@@ -1,0 +1,31 @@
+# Virtual Environments
+marketing-env/
+.venv/
+venv/
+env/
+
+# Python Cache & Test Artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Sensitive Client Data, Models & Generated Reports
+data/raw/*.csv
+data/processed/*.csv
+models/*.joblib
+models/*.pkl
+reports/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+!reports/.gitkeep
+
+# OS & Editor Files
+.DS_Store
+.vscode/
+
+# Block all CSVs except the public demo sample
+data/raw/*.csv
+!data/raw/sample_lagos_ecommerce.csv
+data/processed/*.csv
