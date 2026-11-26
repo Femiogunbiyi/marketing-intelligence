@@ -7,7 +7,7 @@
 
 An end-to-end Python & Machine Learning marketing analytics engine and interactive Streamlit dashboard. Designed to ingest raw ad-platform and payment-gateway exports (Meta Ads, Google Ads, TikTok, Paystack, Shopify), clean messy currency/text data, compute weighted marketing KPIs, segment customers via K-Means clustering, flag underperforming campaigns, and export executive reports.
 
-> **Live Interactive Demo:** [Launch Dashboard on Streamlit Cloud](#) *(Replace `#` with your `share.streamlit.io` URL after deploying)*
+> **Live Interactive Demo:** [Launch Dashboard on Streamlit Cloud](https://marketing-intelligence-vhz62q8hyxvwiqdx5mhzuu.streamlit.app/) *(Replace `#` with your `share.streamlit.io` URL after deploying)*
 
 ---
 
